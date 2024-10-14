@@ -84,7 +84,7 @@ class Library {
         if (findBook === undefined){
             return null
         } else {
-            this.books.splice((this.books.indexOf(bookName)), 1);
+            this.books.splice((this.books.indexOf(findBook)), 1);
             return findBook;
         }
     }
